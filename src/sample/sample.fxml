@@ -40,9 +40,24 @@
 
     <top>
         <Label text="ABP Clones equipment issue"
-               BorderPane.alignment="center"
-            style="-fx-border-color: blue;"/>
+               BorderPane.alignment="center" textFill="cornflowerblue">
+            <font>
+                <Font name="Times New Roman" size="22"></Font>
+            </font>
+        </Label>
     </top>
+
+    <left>
+        <Label text="left label" alignment="center"/>
+    </left>
+
+    <center>
+        <Label text="center label. hdsf jhsdfkjsh fkjhskdfhsjkdfhksjhfksjhf  kjhsdkfhskjdhfkshfsjkh "/>
+    </center>
+
+    <right>
+        <Label text="right label" alignment="center"/>
+    </right>
 
     <bottom>
         <HBox spacing="10" alignment="TOP_RIGHT">
